@@ -7,6 +7,7 @@ int ReadInt(string messege)
     Console.Write($"{messege} > ");
     return Convert.ToInt32(Console.ReadLine());
 }
+
 int number = ReadInt("Введите число");
 for (int i = 1; i <= number; i++)
 {
